@@ -4,6 +4,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { FaFacebook, FaLinkedinIn} from 'react-icons/fa';
 import { FaGithub } from 'react-icons/fa';
 import { FaLinkedin } from 'react-icons/fa';
+import {FaEdit} from 'react-icons/fa'
 
 
 
@@ -14,8 +15,11 @@ function Card(){
     return(
         <div className="flex">
         <div className="Card">
+            
             <div className="upper-container">
+            <FaEdit className="edit"></FaEdit>
                 <div className="image-container">
+               
                     <img src="https://avatars3.githubusercontent.com/u/71769659?s=460&u=f79c2bdf655b094836b60d58a15f4a478631e827&v=4" alt="" height="100px" width="100px"/>
 
                 </div>
@@ -43,6 +47,7 @@ function Card(){
         </div>
         <div className="Card">
             <div className="upper-container">
+            <FaEdit className="edit"></FaEdit>
                 <div className="image-container">
                     <img src="https://avatars3.githubusercontent.com/u/60710271?s=400&u=4beabb3ede0403226fde0a59fbc995c15fbaf6c3&v=4" alt="" height="100px" width="100px"/>
 
@@ -70,6 +75,7 @@ function Card(){
         </div>
         <div className="Card">
             <div className="upper-container">
+            <FaEdit className="edit"></FaEdit>
                 <div className="image-container">
                     <img src="https://avatars2.githubusercontent.com/u/71584331?s=400&u=59e7fe47593366524b5851eeb4a6e4cd4fba1799&v=4" alt="" height="100px" width="100px"/>
 
@@ -96,6 +102,7 @@ function Card(){
         </div>
         <div className="Card">
             <div className="upper-container">
+            <FaEdit className="edit"></FaEdit>
                 <div className="image-container">
                     <img src="https://avatars2.githubusercontent.com/u/71583926?s=460&u=290e3c7e943e0eea053b4bb1c89607207d67163a&v=4" alt="" height="100px" width="100px"/>
 
@@ -122,6 +129,7 @@ function Card(){
         </div>
         <div className="Card">
             <div className="upper-container">
+            <FaEdit className="edit"></FaEdit>
                 <div className="image-container">
                     <img src="https://avatars2.githubusercontent.com/u/71770879?s=460&u=2b363f174c196ad0a14ecb5a3a3dbe37550d952b&v=4" alt="" height="100px" width="100px"/>
 
@@ -148,6 +156,7 @@ function Card(){
         </div>
         <div className="Card">
             <div className="upper-container">
+            <FaEdit className="edit"></FaEdit>
                 <div className="image-container">
                     <img src="https://avatars3.githubusercontent.com/u/71584804?s=400&u=3b941316bf72ff47d8fef9577006e2b54ba5462e&v=4" alt="" height="100px" width="100px"/>
 
@@ -174,6 +183,7 @@ function Card(){
         </div>
         <div className="Card">
             <div className="upper-container">
+            <FaEdit className="edit"></FaEdit>
                 <div className="image-container">
                     <img src="https://avatars3.githubusercontent.com/u/71769638?s=460&u=1a470e089de00fb48d18cefefbc1776e0c808b78&v=4" alt="" height="100px" width="100px"/>
 
@@ -200,6 +210,7 @@ function Card(){
         </div>
         <div className="Card">
             <div className="upper-container">
+            <FaEdit className="edit"></FaEdit>
                 <div className="image-container">
                     <img src="https://avatars2.githubusercontent.com/u/71769566?s=400&u=c066c010c2e4eb481f2d0ef22fd736ca9150ed34&v=4" alt="" height="100px" width="100px"/>
 
